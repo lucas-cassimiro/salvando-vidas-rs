@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-docs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.container-docs .container-voo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 250px;
+    border: 2px solid black;
+    padding: 30px;
+    color: black;
+
+    font-weight: 500;
+
+    margin-bottom: 20px;
+}
+
+.container-docs .container-voo a {
+    font-size: 20px;
+    text-align: center;
+
+    background-color: gray;
+    border-radius: 20px;
+    color: white;
+
+    padding: 10px;
+    align-self: center;
+
+}
+
+.container-docs .container-voo span {
+    font-size: 20px;
+    line-height: 40px;
+}
